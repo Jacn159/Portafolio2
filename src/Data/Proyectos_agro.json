@@ -1,0 +1,25 @@
+{
+  "reportes": [
+    {
+      "id": 1,
+      "nombre_reporte": "Producto Terminado de Uva",
+      "link_reporte": "https://app.powerbi.com/view?r=eyJrIjoiMWM4MmRlOGItZWM3Yy00NmM4LTgzNWUtNTkzZmQ5MWU1YTI4IiwidCI6ImU4MjJmNDUxLTJlNWEtNGY2MS1iMTMyLTg4NGIzYWRiNjhhZSIsImMiOjR9",
+      "descripcion": "Este reporte muestra un análisis detallado de las ventas mensuales por región y producto. Incluye gráficos de tendencias, comparaciones con periodos anteriores y segmentaciones por categorías.",
+      "fuente_imagen": "/img/pt.png"
+    },
+    {
+      "id": 2,
+      "nombre_reporte": "Reporte de Inventarios",
+      "link_reporte": "https://app.powerbi.com/reportLink2",
+      "descripcion": "Este reporte ofrece una visión completa del estado de los inventarios, incluyendo niveles actuales, movimientos recientes y pronósticos de demanda. Es útil para la gestión de la cadena de suministro y la planificación de producción.",
+      "fuente_imagen": "https://app.powerbi.com/reportLinkToImage2"
+    },
+    {
+      "id": 3,
+      "nombre_reporte": "Análisis de Recursos Humanos",
+      "link_reporte": "https://app.powerbi.com/reportLink3",
+      "descripcion": "Este reporte proporciona métricas clave relacionadas con el personal, como la rotación de empleados, la satisfacción laboral y el rendimiento del equipo. Ayuda a los gerentes a tomar decisiones informadas sobre la gestión de talento.",
+      "fuente_imagen": "https://app.powerbi.com/reportLinkToImage3"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.filtros {
+  padding: 1rem;
+  background: fuchsia;
+  width: 15%;
+  max-width: 10rem;
+  display: flex;
+}

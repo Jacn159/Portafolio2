@@ -1,0 +1,187 @@
+{
+  "personal_info": {
+    "name": "Jose Aldahir Casma Nieto",
+    "username": "Jacn159",
+    "phone": "+51 961465265",
+    "email": "jcasma37@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/josecasmanieto/",
+    "github": "https://github.com/Jacn159",
+    "description": "Soy Jose Aldahir Casma Nieto, analista de datos y desarrollador web con experiencia en tecnologías como React.js, Laravel, Power BI y Python. Estudiante de Ingeniería de Sistemas en la Universidad Nacional San Luis Gonzaga de Ica, he formado parte del tercio superior durante siete ciclos consecutivos. He trabajado en proyectos de análisis de datos y desarrollo de sistemas, destacando por mi capacidad autodidacta, adaptabilidad y habilidades de trabajo en equipo. Busco aplicar soluciones tecnológicas innovadoras para resolver problemas complejos y contribuir al éxito de proyectos tecnológicos."
+  },
+  "education": [
+    {
+      "institution": "UNICA / Estudiante",
+      "period": "Diciembre 2020 – Actualidad",
+      "details": [
+        "Estudiante de Ingeniería de Sistemas de 8vo ciclo.",
+        "Formé parte del tercio superior por 7 ciclos consecutivos.",
+        "Pertenezco al equipo organizador de Google Developers Group Ica.",
+        "1er Puesto en el concurso de programación Ica Code Fest.",
+        "Entre los 8 mejores en la Perú Hack 2023."
+      ],
+      "img": "/img/unica.webp",
+      "id": 1
+    },
+    {
+      "institution": "Oracle Next Education / Becado",
+      "period": "Noviembre 2022 – Junio 2023",
+      "details": [
+        "Estudiante en Formación de Front End e Innovación y Gestión.",
+        "Llevé cursos como React JS, CSS, POO, Algoritmos I y II."
+      ],
+      "img": "/img/oracle.webp",
+      "id": 2
+    },
+    {
+      "institution": "Pronabec / Becado",
+      "period": "Agosto 2022 - Actualidad",
+      "details": [
+        "Becado por alto rendimiento en la universidad San Luis Gonzaga."
+      ],
+      "img": "/img/pronabec.webp",
+      "id": 3
+    }
+  ],
+  "experience": [
+    {
+      "position": "Manuelita / Analista de Datos",
+      "company": "Manuelita",
+      "period": "Octubre 2023",
+      "responsibilities": [
+        "Creación de cartillas utilizando un programa específico y realizar pruebas exhaustivas para garantizar su funcionamiento óptimo para los colaboradores.",
+        "Desarrollé un análisis de datos utilizando Power BI, Power Query y Python.",
+        "Contribuí en la resolución de pequeñas problemáticas mediante soluciones tecnológicas, utilizando herramientas como React, Laravel Python y herramientas de Microsoft."
+      ],
+      "img": "/img/manuelita.webp",
+      "id": 4
+    },
+    {
+      "position": "Consigue Ventas / Desarrollador Web",
+      "company": "Consigue Ventas",
+      "period": "Julio 2023",
+      "responsibilities": [
+        "Participé en el desarrollo integral del sistema, abarcando tanto el frontend con React.js como el backend con Laravel.",
+        "Colaboré en la supervisión y el mantenimiento de todas las facetas del sistema de asistencia de la empresa."
+      ],
+      "img": "/img/consiguev.webp",
+      "id": 5
+    },
+    {
+      "position": "GDG Ica / Organizador",
+      "company": "GDG Ica",
+      "period": "Julio 2023",
+      "responsibilities": [
+        "Participé en el desarrollo integral del sistema, abarcando tanto el frontend con React.js como el backend con Laravel.",
+        "Colaboré en la supervisión y el mantenimiento de todas las facetas del sistema de asistencia de la empresa."
+      ],
+      "img": "/img/gdg.webp",
+      "id": 6
+    }
+  ],
+  "programming_languages": {
+    "C#": "Básico",
+    "Java": "Básico",
+    "JavaScript": "Intermedio",
+    "Python": "Básico",
+    "Php": "Básico"
+  },
+  "technologies": {
+    "web_development": [
+      {
+        "name": "React.js",
+        "pv": 65
+      },
+      {
+        "name": "Js",
+        "pv": 50
+      },
+      {
+        "name": "Css",
+        "pv": 70
+      },
+      {
+        "name": "C# ASP.NET",
+        "pv": 50
+      },
+      {
+        "name": "Laravel",
+        "pv": 50
+      }
+    ],
+    "data_analysis": [
+      {
+        "name": "Sql",
+        "pv": 65
+      },
+      {
+        "name": "Power Pivot",
+        "pv": 45
+      },
+      {
+        "name": "Power Bi",
+        "pv": 95
+      },
+      {
+        "name": "Power Query",
+        "pv": 90
+      },
+      {
+        "name": "Python",
+        "pv": 65
+      },
+      {
+        "name": "Excel",
+        "pv": 90
+      }
+    ],
+    "other_technologies": [
+      "Git",
+      "GitHub",
+      "Figma",
+      "Photoshop",
+      "Frame Motion",
+      "Postman"
+    ]
+  },
+  "languages": {
+    "Español": "Nativo",
+    "Inglés": "Básico"
+  },
+  "courses": [
+    "Diseño y Desarrollo Web (Idat)",
+    "Diseño Gráfico (Systematic)",
+    "Ofimatica (Systematic)",
+    "Formación Business Agility (Oracle)",
+    "Formación Front End (Oracle)",
+    "Formación Principiante en Programación (Oracle)",
+    "Diplomado Inteligencia y Análisis de datos (WE Educación Ejecutiva)",
+    "Formación Desarrollo Personal (Oracle)",
+    "Fortaleciendo mi bienestar (Pronabec)",
+    "Inducción a los estudios superiores (Pronabec)",
+    "Excel Avanzado (Systematic)",
+    "Java Developer (Systematic)",
+    "Power Bi (WE Educación Ejecutiva)"
+  ],
+  "soft_skills": [
+    {
+      "name": "Liderazgo",
+      "pv": 75
+    },
+    {
+      "name": "Autodidacta",
+      "pv": 100
+    },
+    {
+      "name": "Aprendizaje Ágil",
+      "pv": 90
+    },
+    {
+      "name": "Trabajo en Equipo",
+      "pv": 80
+    },
+    {
+      "name": "Adaptabilidad",
+      "pv": 65
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.cabecera {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 2rem;
+  flex-direction: column;
+}
+.cabecera__logo {
+  width: 10rem;
+  filter: invert(25%) sepia(98%) saturate(100%) hue-rotate(170deg)
+    brightness(100%) contrast(100%);
+  transition: 0.5s;
+}
+.cabecera__logo:hover {
+  filter: invert(25%) sepia(98%) saturate(100%) hue-rotate(170deg)
+    brightness(60%) contrast(75%);
+}
+@media only screen and (max-width: 720px) {
+  .cabecera__logo:hover {
+    filter: invert(25%) sepia(98%) saturate(100%) hue-rotate(170deg)
+      brightness(100%) contrast(100%);
+  }
+  .cabecera__logo {
+    filter: invert(25%) sepia(98%) saturate(100%) hue-rotate(170deg)
+      brightness(60%) contrast(75%);
+  }
+}

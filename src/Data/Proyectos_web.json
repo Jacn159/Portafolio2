@@ -1,0 +1,54 @@
+{
+  "reportes": [
+    {
+      "id": 4,
+      "nombre_reporte": "Analizador Léxico",
+      "link_reporte": "https://analizadorlexicodarkcode.netlify.app/",
+      "descripcion": "Este proyecto fue realizado para el un trabajo final que nos pidieron en la universidad, donde se usó herramientas React js y Css, para la implementación, Figma para el diseño inicial y Trello para la organización del trabajo",
+      "fuente_imagen": "/img/Analizador Lexico.webp"
+    },
+    {
+      "id": 7,
+      "nombre_reporte": "DevFest Ica",
+      "link_reporte": "https://gdgdevfestica2023.netlify.app/",
+      "descripcion": "Está pagina fue creada con el fin de darle visibilidad al evento pasado del devfest realizado en Ica, se usaron herramientas como React js, Css y librerías como Aos para la realización de algunas animaciones.",
+      "fuente_imagen": "/img/gdgica.webp"
+    },
+    {
+      "id": 1,
+      "nombre_reporte": "GBACode",
+      "link_reporte": "https://gbadarkcode.netlify.app/",
+      "descripcion": "Fue realizado para un tarea de la universidad donde se nos encargó realizar un automata, se utilizó React Js, Frame Motion para las animaciones, y Vanta Js para el fondo, fue uno de los 1eros proyectos que realicé en React js",
+      "fuente_imagen": "/img/gba.webp"
+    },
+    {
+      "id": 2,
+      "nombre_reporte": "Herramienta de Encriptación - Encriptador",
+      "link_reporte": "https://jacn159.github.io/Encriptador/",
+      "descripcion": "La página Encriptador es una appweb que recree mientras estaba en el bootcamp de Alure de One Oracle Next Education, solo se usó Html, Css y Js.",
+      "fuente_imagen": "/img/encriptador.webp"
+    },
+    {
+      "id": 3,
+      "nombre_reporte": "Proyectos de Compiladores",
+      "link_reporte": "https://compiladores.netlify.app/",
+      "descripcion": "Otra pagina recreada para el curso de compiladores donde nos hizo recrear una app con respecto a un automata, se usó react js y css, además que se hizo lo mismo tambien con una versión Html, Css y Js.",
+      "fuente_imagen": "/img/tarea1.webp"
+    },
+
+    {
+      "id": 5,
+      "nombre_reporte": "Juego del Rompecabezas de Ocho",
+      "link_reporte": "https://parcialdeia7mociclo.netlify.app/",
+      "descripcion": "Este fue un proyecto para la universidad donde nos dejaron recrear el tipico juego de rompecabezas de 8, aquí se usó Html, Css y Js",
+      "fuente_imagen": "/img/juegode8.webp"
+    },
+    {
+      "id": 6,
+      "nombre_reporte": "Org",
+      "link_reporte": "https://orgalura.netlify.app/",
+      "descripcion": "La página Org fue el 1er proyecto en React que realicé mientras cursaba el bootcamp de Alura, aquí aprendí las condiciones básicas de react js y su funcionamiento",
+      "fuente_imagen": "/img/org.webp"
+    }
+  ]
+}

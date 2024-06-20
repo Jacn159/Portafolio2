@@ -1,0 +1,32 @@
+.tarjeta {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.7rem;
+}
+.tarjeta:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  background: #ffffff3d;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.tarjeta__activate {
+  background: rgba(255, 255, 255, 0.274);
+  user-select: none;
+}
+.tarjeta__icono {
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 1024px) {
+  .tarjeta {
+    padding: 1rem;
+  }
+}

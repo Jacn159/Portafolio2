@@ -1,0 +1,25 @@
+.dashboard {
+  width: 78%;
+  height: 97%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  color: white;
+  line-height: 1.43rem;
+  padding: 1rem;
+  border-radius: 15px;
+  background: #011c26f3;
+  overflow-y: auto;
+  margin: auto;
+}
+@media only screen and (max-width: 720px) {
+  .dashboard {
+    width: 90%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

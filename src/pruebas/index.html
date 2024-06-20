@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Power BI</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .dashboard {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .iframe-container {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 aspect ratio */
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .report-details {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <!-- Filtros interactivos -->
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <label for="selectPlanta">Planta:</label>
+      <select id="selectPlanta" class="form-control">
+        <option value="planta1">Planta 1</option>
+        <option value="planta2">Planta 2</option>
+        <option value="planta3">Planta 3</option>
+        <!-- Agrega más opciones según tus necesidades -->
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label for="selectFrutos">Frutos:</label>
+      <select id="selectFrutos" class="form-control">
+        <option value="fruto1">Fruto 1</option>
+        <option value="fruto2">Fruto 2</option>
+        <option value="fruto3">Fruto 3</option>
+        <!-- Agrega más opciones según tus necesidades -->
+      </select>
+    </div>
+  </div>
+
+  <!-- Informes principales -->
+  <div class="row">
+    <div class="col-lg-6 mb-4">
+      <div class="dashboard">
+        <h5 class="mb-3">Informe Principal 1</h5>
+        <div class="iframe-container">
+          <iframe id="iframe1" src="https://tudominio.com/informe1" frameborder="0"></iframe>
+        </div>
+        <div id="details1" class="report-details"></div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="dashboard">
+        <h5 class="mb-3">Informe Principal 2</h5>
+        <div class="iframe-container">
+          <iframe id="iframe2" src="https://tudominio.com/informe2" frameborder="0"></iframe>
+        </div>
+        <div id="details2" class="report-details"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap y jQuery (necesario para algunos componentes de Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Script para interactuar con los filtros y los iframes -->
+<script>
+  $(document).ready(function() {
+    // Función para actualizar los iframes con los filtros seleccionados
+    $('#selectPlanta, #selectFrutos').change(function() {
+      var planta = $('#selectPlanta').val();
+      var fruto = $('#selectFrutos').val();
+      var url1 = 'https://tudominio.com/informe1?planta=' + planta + '&fruto=' + fruto;
+      var url2 = 'https://tudominio.com/informe2?planta=' + planta + '&fruto=' + fruto;
+      $('#iframe1').attr('src', url1);
+      $('#iframe2').attr('src', url2);
+      
+      // Actualizar los detalles de cada informe
+      $('#details1').html('Detalles del informe seleccionado: Planta ' + planta + ', Fruto ' + fruto);
+      $('#details2').html('Detalles del informe seleccionado: Planta ' + planta + ', Fruto ' + fruto);
+    });
+  });
+</script>
+
+</body>
+</html>

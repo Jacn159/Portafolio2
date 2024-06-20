@@ -1,0 +1,11 @@
+.barras {
+  width: 5rem;
+  height: 50rem;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+  padding: 1rem;
+}
+.barras__container {
+  display: flex;
+  justify-content: center;
+}

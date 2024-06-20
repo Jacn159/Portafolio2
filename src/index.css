@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+  background: url("/img/fondo.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #032525;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

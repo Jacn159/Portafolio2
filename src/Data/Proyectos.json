@@ -1,0 +1,32 @@
+{
+  "reportes": [
+    {
+      "id": 1,
+      "nombre_reporte": "Reporte de Ventas de Amazon",
+      "link_reporte": "https://app.powerbi.com/view?r=eyJrIjoiN2Q4Mzk4YmMtOWM4MC00ZmJjLTg2YzgtMWQxODk3NjUyMWZjIiwidCI6ImU4MjJmNDUxLTJlNWEtNGY2MS1iMTMyLTg4NGIzYWRiNjhhZSIsImMiOjR9",
+      "descripcion": "Este reporte muestra un análisis detallado de las ventas mensuales por región y producto. Incluye gráficos de tendencias, comparaciones con periodos anteriores y segmentaciones por categorías.",
+      "fuente_imagen": "/img/aws.webp"
+    },
+    {
+      "id": 3,
+      "nombre_reporte": "Reporte de Spotify",
+      "link_reporte": "https://app.powerbi.com/view?r=eyJrIjoiODZkN2M5OGMtYTYwZi00ODE2LThlOGItMTkwNjgyYTE1NzU2IiwidCI6ImU4MjJmNDUxLTJlNWEtNGY2MS1iMTMyLTg4NGIzYWRiNjhhZSIsImMiOjR9",
+      "descripcion": "Este reporte proporciona información de las canciones mas sonadas por país, exclusivamente el top 5, aquí utilicé el api de Spotify para poder obtener los datos.",
+      "fuente_imagen": "/img/spotify.webp"
+    },
+    {
+      "id": 2,
+      "nombre_reporte": "Reporte de Descarte de Uva",
+      "link_reporte": "https://app.powerbi.com/view?r=eyJrIjoiNjVjNzAzYjQtMmE0ZS00NmY2LWJmNTktOGNiY2NlY2MzNWZhIiwidCI6ImU4MjJmNDUxLTJlNWEtNGY2MS1iMTMyLTg4NGIzYWRiNjhhZSIsImMiOjR9",
+      "descripcion": "Este reporte ofrece una vision de los defectos encontrados al realizar la evaluación de Descarte, además de mostrar el cumplimiento el porcentaje de error que se tiene al finalizar el proceso.",
+      "fuente_imagen": "/img/descarte.webp"
+    },
+    {
+      "id": 4,
+      "nombre_reporte": "Producto Terminado de Uva",
+      "link_reporte": "https://app.powerbi.com/view?r=eyJrIjoiMWM4MmRlOGItZWM3Yy00NmM4LTgzNWUtNTkzZmQ5MWU1YTI4IiwidCI6ImU4MjJmNDUxLTJlNWEtNGY2MS1iMTMyLTg4NGIzYWRiNjhhZSIsImMiOjR9",
+      "descripcion": "Este reporte muestra un análisis detallado del proceso de evaluación de producto terminado, donde podemos ver como esta la calidad y condición de la fruta en linea.",
+      "fuente_imagen": "/img/pt.png"
+    }
+  ]
+}

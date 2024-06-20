@@ -1,0 +1,24 @@
+{
+  "menu": [
+    {
+      "valor": 1,
+      "name": "Perfil"
+    },
+    {
+      "valor": 2,
+
+      "name": "Proyectos Analisis de datos"
+    },
+    {
+      "valor": 4,
+
+      "name": "Proyectos Desarrollo Web"
+    }
+    ,
+    {
+      "valor": 5,
+
+      "name": "Otros"
+    }
+  ]
+}
